@@ -1,0 +1,20 @@
+//////////////////////////////
+// Basic Constructor
+//////////////////////////////
+function C() {
+  this.a = 37;
+}
+
+var s = new C();
+
+//////////////////////////////
+// Constructor with a Return
+//////////////////////////////
+function C2() {
+  this.a = 42;
+  return {
+    a: 52
+  }
+};
+
+var t = new C2();
