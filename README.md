@@ -17,3 +17,7 @@ The different scenarios where `this` can change are in the `things-to-test` fold
 ## Running
 
 Run `npm test` in the command line, from within this folder, to run all of the tests. If you would like Karma to poll for changes to your files and rerun the tests on changes, change `singleRun: true` on line 13 of `index.js` to `singleRun: false`.
+
+## License
+
+Public Domain
